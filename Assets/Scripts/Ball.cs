@@ -1,5 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Ball : MonoBehaviour
@@ -23,5 +22,9 @@ public class Ball : MonoBehaviour
 
         Vector2 direction = new Vector2(x, y);
         _rigidbody.AddForce(direction *  this.speed);
+    }
+
+    public void AddForce(Vector2 force){
+       _rigidbody.AddForce(force);
     }
 }

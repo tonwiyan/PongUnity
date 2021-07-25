@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 96649308}
   - component: {fileID: 96649307}
+  - component: {fileID: 96649309}
   m_Layer: 0
   m_Name: Bottom Wall
   m_TagString: Untagged
@@ -180,6 +181,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96649309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96649306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edf5bd2b5e300f4ca86a1c5deaf1263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceStrength: 5
 --- !u!1 &159715873
 GameObject:
   m_ObjectHideFlags: 0
@@ -463,6 +477,7 @@ GameObject:
   - component: {fileID: 545453751}
   - component: {fileID: 545453750}
   - component: {fileID: 545453754}
+  - component: {fileID: 545453755}
   m_Layer: 0
   m_Name: Player Paddle
   m_TagString: Untagged
@@ -516,7 +531,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 1
+  m_Constraints: 5
 --- !u!212 &545453752
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -596,6 +611,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &545453755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545453749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edf5bd2b5e300f4ca86a1c5deaf1263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceStrength: 10
 --- !u!1 &654792879
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +634,7 @@ GameObject:
   m_Component:
   - component: {fileID: 654792881}
   - component: {fileID: 654792880}
+  - component: {fileID: 654792882}
   m_Layer: 0
   m_Name: Top Wall
   m_TagString: Untagged
@@ -653,6 +682,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &654792882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654792879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edf5bd2b5e300f4ca86a1c5deaf1263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceStrength: 5
 --- !u!1 &757732234
 GameObject:
   m_ObjectHideFlags: 0
@@ -868,6 +910,8 @@ GameObject:
   - component: {fileID: 1736666053}
   - component: {fileID: 1736666052}
   - component: {fileID: 1736666051}
+  - component: {fileID: 1736666055}
+  - component: {fileID: 1736666056}
   m_Layer: 0
   m_Name: Computer Paddle
   m_TagString: Untagged
@@ -988,3 +1032,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1736666055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736666050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28466ace56f396048bb59d27a0474bd3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
+  ball: {fileID: 757732236}
+--- !u!114 &1736666056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736666050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5edf5bd2b5e300f4ca86a1c5deaf1263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bounceStrength: 10

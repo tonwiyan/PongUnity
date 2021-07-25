@@ -342,6 +342,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/Scripts/Ball.cs"
+"Assets/Scripts/BouncySurface.cs"
 "Assets/Scripts/ComputerPaddle.cs"
 "Assets/Scripts/Paddle.cs"
 "Assets/Scripts/PlayerPaddle.cs"
