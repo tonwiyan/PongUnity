@@ -15,11 +15,11 @@ G:/unity project/Pong
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-61985
+61408
 Successfully changed project path to: G:/unity project/Pong
 G:/unity project/Pong
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1012.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 126.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.14f1 (51d2f824827f)
 [Subsystems] Discovering subsystems at path C:/Program Files/unity/2021.1.14f1/Editor/Data/Resources/UnitySubsystems
@@ -34,5 +34,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/unity/2021.1.14f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/unity/2021.1.14f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
 Begin MonoManager ReloadAssembly

@@ -344,8 +344,10 @@
 "Assets/Scripts/Ball.cs"
 "Assets/Scripts/BouncySurface.cs"
 "Assets/Scripts/ComputerPaddle.cs"
+"Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Paddle.cs"
 "Assets/Scripts/PlayerPaddle.cs"
+"Assets/Scripts/ScoringZone.cs"
 -langversion:8.0
 
 /deterministic
